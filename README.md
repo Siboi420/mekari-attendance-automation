@@ -32,7 +32,7 @@ The week-old "go copy `document.cookie` from devtools" ritual is gone — the sc
    bunx playwright install chromium
    ```
 
-2. Copy the example files and fill in your values:
+2. Copy the example files and fill in your values. Both `.env` and `config/talenta.json` are gitignored, so your local edits never get committed:
    ```bash
    cp .env.example .env
    chmod 600 .env
